@@ -8,24 +8,22 @@
 </head>
 <body>
     <main>
-        <h1>Welcome, Participant</h1>
-        <form id="form">
-          <div class="input__container">
-            <label for="name">Name</label>
-              <!-- The 'required' prop ensures a filled field before submission -->
-            <input type="text" id="name" name="name" required />
-          </div>
-          <div class="input__container">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required />
-          </div>
-          <div class="input__container">
-            <!-- <label for="message">Message</label> -->
-            <!-- <textarea id="message" name="message" rows="4" required></textarea> -->
-            <label>Contact number</label><input type="text" id="contact">
-          </div>
-          <button>Submit</button>
-        </form>
+       <form action="https://api.web3forms.com/submit" method="POST">
+
+          <input type="hidden" name="access_key" value="c4b801bf-182c-433c-867f-f03b77d25449">
+          <h1>Contact Us</h1>
+          <label>Name</label>
+          <input type="text" name="name" required>
+          <label>Email</label>
+          <input type="email" name="email" required>
+          <label>Message</label>
+          <textarea name="message" required></textarea>
+          <label>Contact number</label><input type="text" id="contact">
+          <input type="hidden" name="redirect" value="https://web3forms.com/success">
+      
+          <button type="submit">Submit Form</button>
+      
+      </form> 
    </main>
 </body>
 </html>
