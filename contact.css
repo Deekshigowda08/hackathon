@@ -7,6 +7,12 @@
    html {
     font-size: 62.5%;
    }
+
+   h1{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+   }
    
    body {
     font-family: "Mulish", sans-serif;
@@ -14,6 +20,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image : url("Frame 1.png");
+    background-size: cover;
    }
    
    main {
@@ -28,7 +36,7 @@
    h1 {
     text-align: center;
     font-size: 3rem;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
    }
    
    form {
@@ -64,3 +72,8 @@
     cursor: pointer;
    }
    
+   label{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: lighter;
+   }

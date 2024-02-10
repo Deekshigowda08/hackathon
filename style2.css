@@ -60,6 +60,7 @@ button {
     cursor: pointer;
     background-color: rgb(119, 178, 63);
     border-radius: 50px;
+    text-decoration: none;
 }
 
 .button1 {
@@ -70,9 +71,11 @@ button {
     cursor: pointer;
     background-color: rgb(89, 139, 158);
     border-radius: 50px;
+    text-decoration: none;
 }
 
 img {
     height: 20vh;
     width: 15vw;
 }
+
