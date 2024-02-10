@@ -17,7 +17,7 @@ function expandBox() {
 
        
         const newText = document.createElement('p');
-        newText.textContent =`Don't worry we have a solution for you just go to the chat box and ask for the team members it will give you list and contact the teammates`;
+        newText.textContent =`Don't worry we have a solution for you just go to the chat box and ask for the team members it will give you list and contact the teammates.`;
         box.appendChild(newText);
 
         isExpanded = true;
@@ -39,7 +39,7 @@ function expandBox1() {
 
        
         const newText = document.createElement('p');
-        newText.textContent =`Don't worry we have a solution for you just go to the chat box and ask for the team members it will give you list and contact the teammates`;
+        newText.textContent =`Just go to the event section and you will be finding the events just get into it.`;
         box.appendChild(newText);
 
         isExpanded = true;
@@ -52,7 +52,7 @@ function expandBox2() {
        
         box.style.width = '60%';
         box.style.height = '70px';
-        box.innerHTML = 'I do not have a team?';
+        box.innerHTML = 'Can I get notified?';
         isExpanded = false;
     } else {
         
@@ -61,7 +61,7 @@ function expandBox2() {
 
         
         const newText = document.createElement('p');
-        newText.textContent =`Don't worry we have a solution for you just go to the chat box and ask for the team members it will give you list and contact the teammates`;
+        newText.textContent =`Yes, sure just click on the calendar and you can add the events which should be notified and you can be free.`;
         box.appendChild(newText);
 
         isExpanded = true;
@@ -74,14 +74,14 @@ function expandBox3() {
         
         box.style.width = '60%';
         box.style.height = '70px';
-        box.innerHTML = 'I do not have a team?';
+        box.innerHTML = 'I have more queries?';
         isExpanded = false;
     } else {
         
         box.style.width = "80%";
         box.style.height = "30vh"
         const newText = document.createElement('p');
-        newText.textContent =`Don't worry we have a solution for you just go to the chat box and ask for the team members it will give you list and contact the teammates`;
+        newText.textContent =`Just contact us we are ready to help you 24*7,Just click on the contact us to cantact.`;
         box.appendChild(newText);
 
         isExpanded = true;
