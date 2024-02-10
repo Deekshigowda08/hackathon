@@ -5,23 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calendar</title>
     <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        background-color: rgb(15, 15, 15);
+      }
       .box{
         display: flex;
         align-items: flex-end;
         justify-content: flex-end;
       }
-      button{
+      .botton{
         color: rgb(232, 232, 232);
         background-color: black;
-        height: 12vh;
-width:10vw;
-font-size: large;
+        height: 3vh;
+        border-radius: 5px;
+        margin: 20px;
+        width:100px;
+        background-color: rgb(255, 8, 8);
+        padding: 10px 2px;
+      }
+      a{
+        text-decoration: none;
+        color: aliceblue;
       }
     </style>
 </head>
 <body>
-<div class="box">
-  <button><a href="index.html">Back to Home</a></button>
+<div class="botton">
+  <a href="index.html">Back to Home</a>
 </div>
 
     <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
