@@ -10,6 +10,18 @@ h2 {
     cursor: pointer;
     transition: all 0.3s linear;
 }
+#resizable-box1 {
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+#resizable-box2 {
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+#resizable-box3 {
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
 
 .nav1 {
     display: flex;
@@ -37,23 +49,24 @@ h2 {
     }
 .text{
     position: relative;
-    top: 25px;
+    top: 50px;
 }
 .down{
     position: relative;
-    top: -7vh;
+    top: -10vh;
     left: 100px;
     display: flex;
-    gap: 30px;
+    gap: 100px;
     width: 90%;
 }
 .top{
-    background-color: #110b47;
+    background-color: #fafcfa;
     display: flex;
     justify-content: flex-end;
     font-size: 60px;
-    color: aliceblue;
+    color: rgb(58, 190, 230);
     padding-left: 30px;
+    font-weight: 1000;
 }
 .plus{
     font-size: 40px;
