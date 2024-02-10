@@ -123,17 +123,15 @@ body {
 
 .container2{
     background-color: rgb(232, 232, 232);
-<<<<<<< HEAD
-    margin-top: 450px;
-    
-=======
 }
 .desc{
     height: 90vh;
->>>>>>> 6cce4dd774d8b17d49b87f333ef18877f572213c
 }
 .container2 li{
     list-style:disc;
     font-size: larger;
     background-color: rgb(232, 232, 232);
+}
+.img2{
+   translate: 0px 50px 0px 0px;
 }
