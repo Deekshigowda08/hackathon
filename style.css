@@ -1,0 +1,39 @@
+.nav{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 20vw;
+}
+li{
+    list-style: none;
+    padding-right: 5vw;
+    font-size:larger;
+    cursor:pointer;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.events {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.event {
+    width: 31%;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.event h3 {
+    margin: 0 0 10px;
+}
+
+.event p {
+    margin: 0;
+}
