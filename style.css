@@ -135,3 +135,7 @@ body {
 .img2{
    translate: 0px 50px 0px 0px;
 }
+h1{
+    font-size: 50px;
+    padding-left: 0px;
+}
