@@ -12,7 +12,6 @@ h2 {
     justify-content: space-around;
     background-color: rgb(66, 14, 14);
     color: rgb(255, 255, 255);
-    cursor: default;
     height: 10vh;
 }
 .box{
@@ -23,7 +22,7 @@ h2 {
     color: azure;
     display: flex;
     align-items: center;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 .box:hover{
     background-color: rgba(1, 1, 1, 0.299);
@@ -43,6 +42,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: default;
 }
 a{
     text-decoration: none;
