@@ -42,15 +42,20 @@ h2 {
     color: aliceblue;
     padding-left: 30px;
 }
+.plus{
+    font-size: 40px;
+}
 .box{
     width: 60%;
     height: 70px;
+    font-size: 21px;
     background-color: black;
     border-radius: 5px;
     color: azure;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding-left: 20px;
+    padding: 0px 20px;
 }
 .box:hover{
     background-color: rgba(0, 0, 0, 0.708);
